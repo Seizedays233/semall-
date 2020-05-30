@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="semall-web-util" />
+        <module name="semall-user" />
+        <module name="semall-passport-web" />
+        <module name="semall-api" />
+        <module name="semall-cart-service" />
+        <module name="semall-payment" />
+        <module name="semall-order-web" />
+        <module name="semall-order-service" />
+        <module name="semall-search-web" />
+        <module name="semall-item-web" />
+        <module name="redisson-test" />
+        <module name="semall-user-service" />
+        <module name="demo2" />
+        <module name="semall-manage-web" />
+        <module name="semall-service-util" />
+        <module name="semall-common-util" />
+        <module name="com.seizedays.semall-parent" />
+        <module name="semall-cart-web" />
+        <module name="semall-search-service" />
+        <module name="semall-manage-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.seizedays.semall-parent" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="demo2" target="1.8" />
+      <module name="semall-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demo2" options="-parameters" />
+      <module name="redisson-test" options="-parameters" />
+      <module name="semall-api" options="-parameters" />
+      <module name="semall-cart-service" options="-parameters" />
+      <module name="semall-cart-web" options="-parameters" />
+      <module name="semall-common-util" options="-parameters" />
+      <module name="semall-item-web" options="-parameters" />
+      <module name="semall-manage-service" options="-parameters" />
+      <module name="semall-manage-web" options="-parameters" />
+      <module name="semall-order-service" options="-parameters" />
+      <module name="semall-order-web" options="-parameters" />
+      <module name="semall-passport-web" options="-parameters" />
+      <module name="semall-payment" options="-parameters" />
+      <module name="semall-search-service" options="-parameters" />
+      <module name="semall-search-web" options="-parameters" />
+      <module name="semall-service-util" options="-parameters" />
+      <module name="semall-user" options="-parameters" />
+      <module name="semall-user-service" options="-parameters" />
+      <module name="semall-web-util" options="-parameters" />
+    </option>
+  </component>
+</project>

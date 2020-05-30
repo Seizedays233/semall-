@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/redisson-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-cart-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-item-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-manage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-manage-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-order-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-passport-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-payment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-search-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semall-web-util/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

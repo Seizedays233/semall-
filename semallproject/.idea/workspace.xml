@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc7b9368-b04b-4f38-b46a-cc96bbe30dda" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semall_dev@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semall_dev@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semall_dev@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semall_dev: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semall_dev@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semall_dev: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="ums_member: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper" />
+        <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/MAVEN/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\MAVEN\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="1ajziIfvRBHUKtuYAtB5CYj5Fv7" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/semall-payment/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.seizedays.semall.order.mappers" />
+      <recent name="com.seizedays.semall.order.services" />
+      <recent name="com.seizedays.semall.annotations" />
+      <recent name="com.seizedays.semall.cart.services" />
+      <recent name="com.seizedays.semall.search.mappers" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.seizedays.semall.search" />
+      <recent name="com.seizedays.semall" />
+      <recent name="com.seizedays.semall.manage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seizedays.semall.search.controllers" />
+      <recent name="webutils.configs" />
+      <recent name="com.seizedays.semall.search.configs" />
+      <recent name="com.seizedays.semall.search" />
+      <recent name="webutils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\projects\emallproject\semall-payment\src\main\resources" />
+      <recent name="K:\projects\emallproject\semall-payment\src\main\resources\static" />
+      <recent name="K:\projects\emallproject\semall-payment\src\main\resources\templates" />
+      <recent name="K:\projects\emallproject\semall-order-service\src\main\resources" />
+      <recent name="K:\projects\emallproject\semall-order-web\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SemallPassportWebMain9001">
+    <configuration name="ManageServiceMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="semall-manage-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seizedays.semall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seizedays.semall.ManageServiceMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceMain8042" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="semall-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seizedays.semall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seizedays.semall.OrderServiceMain8042" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderWebMain9042" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="semall-order-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seizedays.semall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seizedays.semall.OrderWebMain9042" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8087" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="semall-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seizedays.semall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seizedays.semall.PaymentMain8087" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemallPassportWebMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="semall-passport-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seizedays.semall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seizedays.semall.SemallPassportWebMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PaymentMain8087" />
+      <item itemvalue="Spring Boot.OrderWebMain9042" />
+      <item itemvalue="Spring Boot.ManageServiceMain8002" />
+      <item itemvalue="Spring Boot.OrderServiceMain8042" />
+      <item itemvalue="Spring Boot.SemallPassportWebMain9001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SemallPassportWebMain9001" />
+        <item itemvalue="Spring Boot.PaymentMain8087" />
+        <item itemvalue="Spring Boot.OrderServiceMain8042" />
+        <item itemvalue="Spring Boot.ManageServiceMain8002" />
+        <item itemvalue="Spring Boot.OrderWebMain9042" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.28210384" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc7b9368-b04b-4f38-b46a-cc96bbe30dda" name="Default Changelist" comment="" />
+      <created>1587263916583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587263916583</updated>
+      <workItem from="1587263919786" duration="16017000" />
+      <workItem from="1587345514569" duration="13508000" />
+      <workItem from="1587432448572" duration="623000" />
+      <workItem from="1587607665495" duration="18351000" />
+      <workItem from="1587864199562" duration="13129000" />
+      <workItem from="1587955592856" duration="19828000" />
+      <workItem from="1588038145567" duration="13052000" />
+      <workItem from="1588125032881" duration="13697000" />
+      <workItem from="1588211457584" duration="11352000" />
+      <workItem from="1588297300114" duration="15109000" />
+      <workItem from="1588469623137" duration="10513000" />
+      <workItem from="1588641868238" duration="1125000" />
+      <workItem from="1588732161158" duration="1342000" />
+      <workItem from="1588733547179" duration="7564000" />
+      <workItem from="1588818712105" duration="3837000" />
+      <workItem from="1588925641801" duration="1823000" />
+      <workItem from="1588989763486" duration="18636000" />
+      <workItem from="1589162658906" duration="25473000" />
+      <workItem from="1589248235635" duration="14301000" />
+      <workItem from="1589332684728" duration="13800000" />
+      <workItem from="1589354404751" duration="16032000" />
+      <workItem from="1589420714117" duration="7271000" />
+      <workItem from="1589509088720" duration="1190000" />
+      <workItem from="1589589137766" duration="11994000" />
+      <workItem from="1589607164828" duration="14600000" />
+      <workItem from="1589675319709" duration="10549000" />
+      <workItem from="1589768869658" duration="16539000" />
+      <workItem from="1589851124168" duration="14471000" />
+      <workItem from="1590559600252" duration="13363000" />
+      <workItem from="1590627156003" duration="16496000" />
+      <workItem from="1590709775792" duration="6024000" />
+      <workItem from="1590738207284" duration="5121000" />
+      <workItem from="1590817166147" duration="2696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="296" y="37" key="#CartWebMain9032" timestamp="1589600983051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="296" y="37" key="#CartWebMain9032/0.0.1536.824@0.0.1536.824" timestamp="1589600983051" />
+    <state x="296" y="37" key="#ManageWebMain9002" timestamp="1589607253812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="296" y="37" key="#ManageWebMain9002/0.0.1536.824@0.0.1536.824" timestamp="1589607253812" />
+    <state x="361" y="71" key="#Notifications" timestamp="1589340924205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1589340924205" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1588046456838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588046456838" />
+    <state x="296" y="49" key="#SemallUserWebMain9001" timestamp="1589169788431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="296" y="49" key="#SemallUserWebMain9001/0.0.1536.824@0.0.1536.824" timestamp="1589169788431" />
+    <state x="296" y="49" key="#SemallUserWebMain9002" timestamp="1589170262535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="296" y="49" key="#SemallUserWebMain9002/0.0.1536.824@0.0.1536.824" timestamp="1589170262535" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587267402643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587267402643" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1590734652801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590734652801" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588733455611">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588733455611" />
+    <state x="314" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589675735844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="314" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589675735844" />
+    <state x="513" y="271" width="509" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589002733540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="271" width="509" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589002733540" />
+    <state x="154" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589351744799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="154" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1589351744799" />
+    <state width="532" height="466" key="DebuggerActiveHint" timestamp="1590565370680">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="532" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590565370680" />
+    <state x="353" y="210" key="FileChooserDialogImpl" timestamp="1589600751926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="210" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589600751926" />
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1587301009138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1536.824@0.0.1536.824" timestamp="1587301009138" />
+    <state width="1050" height="248" key="GridCell.Tab.0.bottom" timestamp="1590819227773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590819227773" />
+    <state width="1050" height="248" key="GridCell.Tab.0.center" timestamp="1590819227773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590819227773" />
+    <state width="1050" height="248" key="GridCell.Tab.0.left" timestamp="1590819227772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590819227772" />
+    <state width="1050" height="248" key="GridCell.Tab.0.right" timestamp="1590819227773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590819227773" />
+    <state width="1050" height="248" key="GridCell.Tab.1.bottom" timestamp="1590819228812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590819228812" />
+    <state width="1050" height="248" key="GridCell.Tab.1.center" timestamp="1590819228812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590819228812" />
+    <state width="1050" height="248" key="GridCell.Tab.1.left" timestamp="1590819228812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590819228812" />
+    <state width="1050" height="248" key="GridCell.Tab.1.right" timestamp="1590819228812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590819228812" />
+    <state width="1050" height="248" key="GridCell.Tab.2.bottom" timestamp="1590819054795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590819054795" />
+    <state width="1050" height="248" key="GridCell.Tab.2.center" timestamp="1590819054795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1590819054795" />
+    <state width="1050" height="248" key="GridCell.Tab.2.left" timestamp="1590819054795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1590819054795" />
+    <state width="1050" height="248" key="GridCell.Tab.2.right" timestamp="1590819054795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1050" height="248" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1590819054795" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1589594159610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="74" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589594159610" />
+    <state width="530" height="446" key="SwitcherDM" timestamp="1587283976179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="530" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1587283976179" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1587626879888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1587626879888" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1590817168414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590817168414" />
+    <state x="178" y="107" key="new project wizard" timestamp="1590734720926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590734720926" />
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1590668327234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1590668327234" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590736302668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590736302668" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-user/src/main/java/com/seizedays/semall/passport/controller/UserController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-web/src/main/java/com/seizedays/semall/manage/controllers/AtrrWebController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/controller/AttrController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-web/src/main/java/com/seizedays/semall/manage/controllers/AtrrWebController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-web/src/main/java/com/seizedays/semall/manage/controllers/FileUploadController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-web/src/main/java/com/seizedays/semall/manage/controllers/SpuWebController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/test/java/com/seizedays/semall/manage/Test001.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-web/src/main/java/com/seizedays/semall/manage/controllers/SkuWebController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/controller/SkuController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/controller/SkuController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-search-service/src/test/java/com/seizedays/semall/search/SearchTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/SkuServiceImpl.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/SkuServiceImpl.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-search-service/src/test/java/com/seizedays/semall/search/SearchTest.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/controller/AttrController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/AttrInfoServiceImpl.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/AttrInfoServiceImpl.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/AttrInfoServiceImpl.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-manage-service/src/main/java/com/seizedays/semall/manage/service/impl/AttrInfoServiceImpl.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-cart-service/src/main/java/com/seizedays/semall/cart/controllers/CartServiceController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-passport-web/src/main/java/com/seizedays/semall/passport/controller/PassPortController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-passport-web/src/main/java/com/seizedays/semall/passport/controller/TestOauth2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-passport-web/src/main/java/com/seizedays/semall/passport/controller/TestOauth2.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-user-service/src/main/java/com/seizedays/semall/passport/controller/UserController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/semall-payment/src/main/java/com/seizedays/semall/payment/controller/PaymentController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
