@@ -5,7 +5,12 @@ import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.request.AlipayTradePagePayRequest;
 import com.seizedays.semall.annotations.LoginRequired;
+import com.seizedays.semall.beans.OmsOrder;
+import com.seizedays.semall.beans.PaymentInfo;
 import com.seizedays.semall.payment.config.AlipayConfig;
+import com.seizedays.semall.payment.services.OrderServiceForPayment;
+import com.seizedays.semall.services.PaymentService;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -14,8 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,10 +33,42 @@ public class PaymentController {
     @Autowired
     AlipayClient alipayClient;
 
+    @Resource
+    PaymentService paymentService;
+
+    @Resource
+    OrderServiceForPayment orderService;
+
     @RequestMapping("/alipay/callback/return")
     @LoginRequired(loginSuccessRequired = true)
-    public String alipayCallbackReturn(HttpServletRequest request, ModelMap modelMap){
+    public String alipayCallbackReturn(HttpServletRequest request, ModelMap modelMap) {
 
+        //从回调请求中获取支付宝的参数 验签
+        String sign = request.getParameter("sign");
+        String aliPayTradeNo = request.getParameter("trade_no");
+        String outTradeNo = request.getParameter("out_trade_no");
+        String totalAmount = request.getParameter("total_amount");
+        String trade_status = request.getParameter("trade_status");
+        String subject = request.getParameter("subject");
+
+        String callBackContent = request.getQueryString();
+        //以前是通过支付宝的paramMap进行签名验证， 2.0版本之后的接口将这个参数去掉了， 导致同步请求没法验签
+        //这里简单验证一下
+        if (StringUtils.isNotBlank(sign)) {
+            //验签成功
+            //更新用户的支付信息
+            PaymentInfo paymentInfo = new PaymentInfo();
+            paymentInfo.setOrderSn(outTradeNo);
+            paymentInfo.setPaymentStatus("已经支付");
+            paymentInfo.setAlipayTradeNo(aliPayTradeNo);  //支付宝的交易凭证号
+            paymentInfo.setCallbackContent(callBackContent); //回调请求字符串
+            paymentInfo.setCallbackTime(new Date());
+
+            paymentService.updatPayment(paymentInfo);
+
+        }
+
+        //支付成功后引起的系统服务 ->订单服务->库存服务->物流服务
 
 
         return "finish";
@@ -75,8 +114,17 @@ public class PaymentController {
         } catch (AlipayApiException e) {
             e.printStackTrace();
         }
+        //生成并保存用户支付信息
+        OmsOrder omsOrder = orderService.getOrderByOutTradeNo(outTradeNo);
+        PaymentInfo paymentInfo = new PaymentInfo();
+        paymentInfo.setCreateTime(new Date());
+        paymentInfo.setOrderSn(outTradeNo);
+        paymentInfo.setOrderId(omsOrder.getId());
+        paymentInfo.setTotalAmount(omsOrder.getTotalAmount());
+        paymentInfo.setPaymentStatus("订单未付款");
+        paymentInfo.setSubject("semall商品");
 
-
+        paymentService.savePaymentInfo(paymentInfo);
         return form;
     }
 
