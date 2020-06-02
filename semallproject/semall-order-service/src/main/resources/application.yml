@@ -7,6 +7,13 @@ spring:
     host: 127.0.0.1
     port: 6379
     database: 0
+  activemq:
+    broker-url: tcp://localhost:61616
+
+activemq:
+  listener:
+    enable: true
+
 
 logging:
   level:

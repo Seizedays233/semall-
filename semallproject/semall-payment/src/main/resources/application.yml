@@ -5,7 +5,20 @@ spring:
     host: 127.0.0.1
     port: 6379
     database: 0
+    #使用artemis的配置
+#  artemis:
+#    mode: native
+#    host: localhost
+#    port: 61616
+#    user: seizedays
+#    password: seizedays123
+    #使用activeMQ时的配置
+  activemq:
+    broker-url: tcp://localhost:61616
 
+activemq:
+  listener:
+    enable: true
 
 ipAddress:
   value: 127.0.0.1

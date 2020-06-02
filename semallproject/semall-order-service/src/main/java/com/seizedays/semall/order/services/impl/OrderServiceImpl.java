@@ -2,15 +2,19 @@ package com.seizedays.semall.order.services.impl;
 
 import com.seizedays.semall.beans.OmsOrder;
 import com.seizedays.semall.beans.OmsOrderItem;
+import com.seizedays.semall.mq.ActiveMQUtil;
 import com.seizedays.semall.order.mappers.OmsOrderItemMapper;
 import com.seizedays.semall.order.mappers.OmsOrderMapper;
 import com.seizedays.semall.services.OrderService;
 import com.seizedays.semall.util.RedisUtil;
+import org.apache.activemq.command.ActiveMQMapMessage;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
+import tk.mybatis.mapper.entity.Example;
 
+import javax.jms.*;
 import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
@@ -27,6 +31,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     OmsOrderItemMapper omsOrderItemMapper;
+
+    @Autowired
+    ActiveMQUtil activeMQUtil;
 
     @Override
     public String checkTradeCode(Long memberId, String tradeCode) {
@@ -84,6 +91,57 @@ public class OrderServiceImpl implements OrderService {
         //删除购物车数据
         // cartService.delCart();
 
+
+    }
+
+    @Override
+    public OmsOrder getOrderByOutTradeNo(String outTradeNo) {
+        OmsOrder omsOrder = new OmsOrder();
+        omsOrder.setOrderSn(outTradeNo);
+        return omsOrderMapper.selectOne(omsOrder);
+    }
+
+    @Override
+    public void updateOrder(OmsOrder omsOrder) {
+        omsOrder.setStatus(1);
+        Example example = new Example(OmsOrder.class);
+        example.createCriteria().andEqualTo("orderSn", omsOrder.getOrderSn());
+
+        Connection connection = null;
+        Session session = null;
+        try {
+            connection = activeMQUtil.getConnectionFactory().createConnection();
+            session = connection.createSession(true, Session.SESSION_TRANSACTED);
+        } catch (JMSException ex) {
+            ex.printStackTrace();
+        }
+
+        if (session != null) {
+            try {
+                omsOrderMapper.updateByExampleSelective(omsOrder,example);
+
+                //发送订单已支付的消息队列 提供给库存系统消费
+                Queue orderPayQueue = session.createQueue("ORDER_PAY_QUEUE");
+                MessageProducer producer = session.createProducer(orderPayQueue);
+
+                MapMessage mapMessage = new ActiveMQMapMessage();
+                producer.send(mapMessage);
+                session.commit();
+            } catch (JMSException e2) {
+                //回滚
+                try {
+                    session.rollback();
+                } catch (JMSException ex) {
+                    ex.printStackTrace();
+                }
+            } finally {
+                try {
+                    connection.close();
+                } catch (JMSException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
 
     }
 

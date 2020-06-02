@@ -68,7 +68,6 @@ public class PaymentController {
 
         }
 
-        //支付成功后引起的系统服务 ->订单服务->库存服务->物流服务
 
 
         return "finish";
@@ -125,6 +124,10 @@ public class PaymentController {
         paymentInfo.setSubject("semall商品");
 
         paymentService.savePaymentInfo(paymentInfo);
+
+        //向mq发送一个检查支付状态的延迟消息队列
+        paymentService.delayPaymentResultCheck(outTradeNo,5);
+
         return form;
     }
 

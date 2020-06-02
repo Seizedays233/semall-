@@ -30,5 +30,10 @@ public class OrderServiceController {
         orderService.saveOrder(omsOrder);
     }
 
+    @RequestMapping("/getOrderByOutTradeNo")
+    OmsOrder getOrderByOutTradeNo(@RequestParam("outTradeNo") String outTradeNo){
+        return orderService.getOrderByOutTradeNo(outTradeNo);
+    }
+
 
 }
